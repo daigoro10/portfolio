@@ -1,0 +1,273 @@
+@charset "UTF-8";
+
+.header {
+    height: 110px;
+}
+
+.header h1{
+    padding-top: 20px;
+    text-align: center;
+}
+
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+/*トップページ*/
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.category {
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #000;
+    height: 100%;
+    text-decoration: none;
+}
+.category a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+/*商品詳細ページ*/
+.flex-detail {
+    display: flex;
+    justify-content: space-around;
+}
+/*.product-and-heart {
+
+}*/
+.product-detail {
+    padding-right: 120px;
+    padding-top: 50px;
+}
+
+
+/*商品検索ページ*/
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-search {
+    width: 200px;
+}
+.item {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+
+ul{
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    text-align: center;
+    }
+    ul li{
+    display: table-cell;
+    min-width: 50px;
+    }
+    ul li a{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    }
+    ul li.current{
+    background-color: #DEEBF7;
+    }
+    ul li.current a{
+    color: #555;
+    }
+    ul li:hover{
+    background-color: #FFF2CC;
+    }
+
+.footer{
+    height: 200px;
+    background-color: cadetblue;
+    color: #fff;
+    clear: both;
+    margin-top: 20px;
+}
+
+.nav-border {
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+}
+
+.main-contents, .left-navi, .right-navi {
+    margin-bottom: 100px;
+}
+.main-contents {
+    float: left;
+    width: 85%;
+}
+.left-navi {
+    width: 15%;
+    float: right;
+}
+.right-navi {
+    float: right;
+    width: 15%;
+}
+.main{
+    width: 85%;
+    float: right;
+}
+
+.photo {
+    width: calc(100%/4);
+    float: left;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.photo-img {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.history-img {
+    width: 40%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.heart-detail a {
+    color: red;
+}
+
+.heart {
+    float: right;
+    color: red;
+}
+
+.customer-history {
+    text-align: center;
+}
+
+
+/*カート関連*/
+
+img.photo-cart{
+    width: auto;
+    height: 200px;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+  }
+  
+  table tr{
+    border-bottom: solid 1px #eee;
+    cursor: pointer;
+  }
+  
+  table tr:hover{
+    background-color: #d4f0fd;
+  }
+  
+  table th,table td{
+    text-align: center;
+    width: 25%;
+    padding: 15px 0;
+  }
+  
+  table td.icon{
+    background-size: 35px;
+    background-position: left 5px center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+  }
+
+
+/*スライドショー*/
+.container {
+    margin: 0 auto;
+    padding: 40px;
+    width: 80%;
+    color: #333;
+  }
+  
+  .slick-slide {
+    text-align: center;
+    color: #419be0;
+    background: white;
+  }
+
+/*ボタン
+-----------------------*/
+
+.button {
+    background: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+    text-decoration: none;
+}
+.button:hover {
+    background: #0090aa;
+}
+
+#button-add {
+    background: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+    text-decoration: none;
+}
+#button-add:hover {
+    background: #0090aa;
+}
+
+
+
+/*検索ボタン*/
+.btn-square {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+  }
+  .btn-square:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+  }
+  .btn-square
+  :hover {
+    background: #0090aa;
+}
+
